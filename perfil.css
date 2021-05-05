@@ -1,0 +1,144 @@
+
+
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #FEC7D7;
+}
+.margen{
+    padding: 0 21px;
+}
+.contenedor{
+
+    width: 375px;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 375px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.contenedor_cabecera{
+    width: 100%;
+}
+.perfil{
+    font-size: 16px;
+    width: 100%;
+    height: 33px;
+    text-align: left;
+    font-weight: bolder;
+    margin: 32px 0 0 0;
+}
+
+.contenedor_mensaje{
+    width: 94px;
+    height: 136px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contenedor_mensaje img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: auto;
+}
+.contenedor_mensaje p:nth-child(2){
+    color: #535353;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}
+.contenedor_mensaje p:nth-child(3){
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+.formulario{
+    height: 332px;
+    width: 327px;
+    margin: auto;
+}
+.formulario label{
+    display: block;
+    width: 100%;
+    padding: 7px;
+    color: #535353;
+}
+.formulario input{
+    border: 1px solid #bbb;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 4px;
+    margin-bottom:13px ;
+}
+.formulario button{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 17px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #0E172C;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+footer .btn img{
+    margin-right: 9px;
+    width: 24px;
+    height: 24px;
+}
+footer{
+    background-color: #FFFFFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.tab{
+
+    padding: 0px;
+    margin-right: 60px;
+}
+
+.tab active{
+
+    display: inline-block;
+    color: #B5D1CE;
+    font-size: 15px;
+    margin-left: 20px;
+    letter-spacing: 1.1px;
+}
+
+
+a{
+    text-decoration: none;
+    
+  }
+
+
+
+
+#footer:active{
+    width: 115px;
+    height: 40px;
+    border-radius: 80px;
+    border: none;
+    display:flow;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #85D1CE;
+    background-color: #0E172C;
+   
+}
+
+
